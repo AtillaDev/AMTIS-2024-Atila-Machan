@@ -1,0 +1,18 @@
+.features {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 2rem;
+  gap: 1rem;
+  text-align: center;
+
+  @include desktop {
+    flex-direction: row;
+  }
+}
+
+.feature {
+  background-color: rgb(204, 204, 204);
+  //   max-width: 100%;
+  //   flex-grow: 2;
+}
